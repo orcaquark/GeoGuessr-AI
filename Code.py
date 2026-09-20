@@ -92,7 +92,7 @@ history = model.fit(train_generator,
 
 
 
-#graphing loss and validation loss curves
+#graph loss and validation loss curves
 import matplotlib.pyplot as plt
 
 loss = history.history['loss']
